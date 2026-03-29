@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>tugas1 web</title>
+  <style>
+    body {
+      background-color: #1a0a1e;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-top: 40px;
+    }
+
+    h1 {
+      margin-top: 16px;
+    }
+
+    p {
+      color: #c8cfe8;
+      margin-top: 6px;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 400px;
+      background-color: #3d1020;
+      border-radius: 12px;
+    }
+
+    td {
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      font-size: 14px;
+      text-align: left;
+    }
+
+    td:last-child {
+      text-align: right;
+      font-weight: bold;
+    }
+
+    a {
+      display: block;
+      width: 400px;
+      margin: 8px auto;
+      padding: 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+
+    .merah { background-color: #c0152e; }
+    .gelap  { background-color: #8b2035; }
+
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 14px;
+    }
+
+    .kartu {
+      width: 400px;
+      margin: 8px auto;
+      background-color: #3d1020;
+      border-radius: 12px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-align: left;
+    }
+
+    .kartu img {
+      width: 64px;
+      height: 64px;
+      border: 3px solid #ff2d55;
+      margin: 0;
+    }
+
+    .kartu p {
+      margin: 0;
+    }
+
+    .kartu b {
+      font-size: 15px;
+      color: white;
+    }
+
+    .video {
+      width: 400px;
+      margin: 10px auto;
+      position: relative;
+    }
+
+    .video img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: none;
+      margin: 0;
+    }
+
+    .play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 54px;
+      height: 54px;
+      background-color: red;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://i.pinimg.com/736x/9f/32/fb/9f32fb8a545702ec1b35f5b1f7b528ef.jpg" />
+
+  <h1>Red Velvet 레드벨벳</h1>
+  <p>Irene | Seulgi | Wendy | Joy | Yeri</p>
+
+  <table>
+    <tr><td>Agensi</td><td>SM Entertainment</td></tr>
+    <tr><td>Debut</td><td>1 Agustus 2014</td></tr>
+    <tr><td>Members</td><td>5 orang</td></tr>
+    <tr><td>Fandom</td><td>ReVeluv</td></tr>
+    <tr><td>Genre</td><td>Pop, R&B, Dance</td></tr>
+  </table>
+
+  <a href="https://www.youtube.com/channel/UCk9GmdlDTBfgGRb7vXeRMoQ" class="merah" target="_blank">YouTube Red Velvet</a>
+  <a href="https://www.instagram.com/redvelvet.smtown" class="gelap" target="_blank">Instagram Official</a>
+  <a href="https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM" class="gelap" target="_blank">Spotify</a>
+  <a href="https://x.com/RVsmtown" class="gelap" target="_blank">Twitter / X</a>
+
+  <h2>Meet the Members</h2>
+
+  <div class="kartu">
+    <img src="https://i.pinimg.com/736x/e3/d0/6f/e3d06f5ddb93564a743bb1ecbb66a6a0.jpg" />
+    <div>
+      <b>Irene</b>
+      <p>Bae Ju-hyun | Leader | 29 Maret 1991</p>
+    </div>
+  </div>
+
+  <div class="kartu">
+    <img src="https://i.pinimg.com/736x/0f/56/5b/0f565bdce202d8a9c7d281e6f321a9bf.jpg" />
+    <div>
+      <b>Seulgi</b>
+      <p>Kang Seul-gi | Main Dancer | 10 Feb 1994</p>
+    </div>
+  </div>
+
+  <div class="kartu">
+    <img src="https://i.pinimg.com/736x/0c/99/ce/0c99ce02b82bb097a2b53153b0d4b60d.jpg" />
+    <div>
+      <b>Wendy</b>
+      <p>Son Seung-wan | Main Vocalist | 21 Feb 1994</p>
+    </div>
+  </div>
+
+  <div class="kartu">
+    <img src="https://i.pinimg.com/736x/4a/1c/dd/4a1cddeae275ef5f1e7dcbd205d9322a.jpg" />
+    <div>
+      <b>Joy</b>
+      <p>Park Soo-young | Vocalist | 3 Sep 1996</p>
+    </div>
+  </div>
+
+  <div class="kartu">
+    <img src="https://i.pinimg.com/736x/a7/21/13/a721131208aba4b3956f7e03fdd12c61.jpg" />
+    <div>
+      <b>Yeri</b>
+      <p>Kim Ye-rim | Maknae | 5 Mar 1999</p>
+    </div>
+  </div>
+
+  <h2>Comeback Terbaru - Cosmic (2024)</h2>
+
+  <div class="video">
+    <a href="https://youtu.be/FyG21rXCxlY" target="_blank">
+      <img src="https://img.youtube.com/vi/FyG21rXCxlY/maxresdefault.jpg" />
+      <div class="play">&#9654;</div>
+    </a>
+  </div>
+
+  <p>Red Velvet – "Cosmic" (2024)</p>
+  <p>Semangat jadi ReVeluv ❤️</p>
+
+</body>
+</html>
